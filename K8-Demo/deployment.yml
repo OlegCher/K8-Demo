@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
       - name: weather-api
-        image: olegcher/weaterapi:1.0.0
+        image: olegcher/weaterapi:1.0.6
         imagePullPolicy: Always
         ports:
         - containerPort: 80
